@@ -1,0 +1,308 @@
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 50px 90px;
+}
+
+.abaut {
+    margin-bottom: 40px;
+}
+
+.abaut-posiyion {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.abaut-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+.abaut-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 650px;
+}
+
+.projects {
+    margin-bottom: 45px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.project-list {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.projects-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project, .project-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.experience {
+
+}
+
+.work-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.work-list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education {
+    margin-top: 45px;
+
+}
+
+.university {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.departament {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.sidebar {
+    width: 370px;
+    height: 1400px;
+    left: 40px;
+    background: #1E2939;
+}
+
+.photo {
+    width: 370px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.sidebar-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 1px;
+}
+
+.contacts, .tech_skills, .soft_skills {
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+
+.contact-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.tech_skills-list, .soft_skills-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.tech_skills-text, .soft_skills-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.tech_skills-item, .soft_skills-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+
+.tech_skills {
+}
+
+
+.projects_title {
+
+}
+
+body {
+    font-family: 'e-Ukraine', sans-serif;
+    background-color: #E5E5E5;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Thin.otf"),
+    url("../fonts/e-Ukraine-Thin.woff2"),
+    url("../fonts/e-Ukraine-Thin.woff");
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-UltraLight.otf"),
+    url("../fonts/e-Ukraine-UltraLight.woff2"),
+    url("../fonts/e-Ukraine-UltraLight.woff");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Light.otf"),
+    url("../fonts/e-Ukraine-Light.woff2"),
+    url("../fonts/e-Ukraine-Light.woff");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Regular.otf"),
+    url("../fonts/e-Ukraine-Regular.woff2"),
+    url("../fonts/e-Ukraine-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Medium.otf"),
+    url("../fonts/e-Ukraine-Medium.woff2"),
+    url("../fonts/e-Ukraine-Medium.woff");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-Ukraine';
+    src: url("../fonts/e-Ukraine-Bold.otf"),
+    url("../fonts/e-Ukraine-Bold.woff2"),
+    url("../fonts/e-Ukraine-Bold.woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
