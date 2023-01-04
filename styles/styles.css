@@ -1,68 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
-    margin: 0 auto;
+    width: 1100px;
+    height: 1400px;
+    margin: 50px auto 50px auto;
 }
 
 .main-content {
+    position: center;
     background: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 50px 90px;
+    padding: 50px 50px 0 50px;
 }
 
-.abaut {
-    margin-bottom: 40px;
-}
+
 
 .abaut-posiyion {
-    font-style: normal;
+    margin-top: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .abaut-name {
-    font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
     color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 30px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
 }
 
 .abaut-description {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 650px;
+    margin-bottom: 25px;
 }
 
 .projects {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 .title {
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    margin-bottom: 10px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
 }
 
 .project-list {
     padding: 0;
     margin-left: 20px;
+    margin-bottom: 25px;
 }
 
 .projects-item {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -70,7 +72,6 @@
 }
 
 .project, .project-link {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -80,9 +81,26 @@
 .project-link {
     margin-left: 10px;
 }
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:2px underline black;
+}
+a:visited {
+    color: black;
+}
+
+.sidebar a:link {
+    text-decoration: none;
+}
+.sidebar a:hover {
+    text-decoration:2px underline white;
+    opacity: 1 ;
+}
+
 
 .project-bracket {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -94,16 +112,14 @@
 }
 
 .work-position {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .organization {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -116,7 +132,7 @@
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .line {
@@ -129,73 +145,76 @@
 
 .work-list {
     padding: 0;
+    margin-top: 0;
     margin-left: 16px;
+    margin-bottom: 25px;
 }
 
 .work-list-item {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
 }
 
-.education {
-    margin-top: 45px;
+.education p , .education h4  {
+    margin:0;
+
 
 }
 
 .university {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #FB6D3A;
-    margin-bottom: 10px;
+    padding-top: 12px;
 }
 
 .departament {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
 }
+
 
 
 .sidebar {
     width: 370px;
     height: 1400px;
-    left: 40px;
     background: #1E2939;
 }
 
 .photo {
     width: 370px;
     height: auto;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 50px;
+
 
 }
 
 .sidebar-title {
     color: #FFFFFF;
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 1px;
+    margin-bottom: 12px;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.1);
+
 }
 
 .contacts, .tech_skills, .soft_skills {
-    margin-left: 40px;
-    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
 }
 
 
 .contact-type {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -204,7 +223,6 @@
 }
 
 .contact-link {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -245,6 +263,9 @@
 body {
     font-family: 'e-Ukraine', sans-serif;
     background-color: #E5E5E5;
+    font-style: normal;
+
+
 }
 
 @font-face {
